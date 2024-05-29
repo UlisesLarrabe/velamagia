@@ -1,4 +1,4 @@
-import Sparkle from "@/svg/sparkle";
+import Sparkle from "@/svg/Sparkle";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
@@ -10,7 +10,7 @@ const Sleeve = () => {
     <section className=" h-[95vh] w-screen text-center overflow-hidden z-30 relative flex flex-col items-center justify-center">
       <header className="z-30 relative flex flex-col gap-5 justify-center items-center">
         <h1
-          className={`text-7xl text-[#FFFBFA] brightness-110 ${montserrat.className}`}
+          className={`md:text-7xl text-5xl text-[#FFFBFA] brightness-110 ${montserrat.className}`}
         >
           Velamagia
         </h1>

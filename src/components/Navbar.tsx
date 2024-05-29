@@ -50,7 +50,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="text-[#37392E]" href="#">
+              <a className="text-[#37392E]" href="#our-products">
                 Productos
               </a>
             </li>

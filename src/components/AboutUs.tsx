@@ -45,17 +45,19 @@ const AboutUs = () => {
 
   return (
     <section
-      className="w-[1024px] flex flex-col gap-4 items-center p-2 bg-[#FCD9DB]"
+      className="lg:w-[1024px] w-full flex flex-col gap-4 items-center p-2 bg-[#FCD9DB]"
       id="about-us"
     >
-      <header>
-        <h2 className={` ${montserrat.className}  text-3xl text-[#A5243D]`}>
+      <header className="flex justify-center items-center">
+        <h2
+          className={` ${montserrat.className} text-xl md:text-3xl text-[#A5243D]`}
+        >
           MISIÓN, VISIÓN Y VALORES
         </h2>
       </header>
-      <main className="flex gap-3 justify-center w-full">
-        <section className="flex flex-col gap-4 w-[50%]">
-          <div className="flex w-[500px] gap-2">
+      <main className="flex md:flex-row flex-col gap-3 items-center md:items-start justify-center w-full">
+        <section className="flex flex-col gap-4 w-full items-center md:items-start md:w-[50%] md:h-auto h-[150px]">
+          <div className="flex justify-center md:justify-normal md:w-[500px] gap-2">
             {info.map((item) => (
               <button
                 onClick={() => setSelectedInfo(item)}

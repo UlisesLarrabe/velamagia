@@ -38,6 +38,7 @@ const Sleeve = () => {
         <video
           muted
           autoPlay
+          controlsList="nofullscreen"
           className="object-center w-screen h-screen object-cover"
         >
           <source src="/assets/mainVideo.webm" type="video/webm" />

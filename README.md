@@ -1,6 +1,6 @@
 # Sitio no oficial de Velamagia
 
-Página **no oficial** de la empresa [Velamagia]("https://www.instagram.com/_velamagia/?igsh=MW5xdnllbTlyaGxqeQ%3D%3D").
+Página **no oficial** de la empresa [Velamagia](https://www.instagram.com/_velamagia/?igsh=MW5xdnllbTlyaGxqeQ%3D%3D).
 
 ## Instalación
 
@@ -19,7 +19,7 @@ Instala mi app utilizando git y npm
 
 ## Tecnologias utilizadas
 
-- [NextJs]('https://nextjs.org)
-- [Tailwind CSS]('https://tailwindcss.com')
-- [Daisy UI]('https://daisyui.com')
-- [Tailwind css animations]('https://tailwindcss-animations.vercel.app')
+- [NextJs](https://nextjs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Daisy UI](https://daisyui.com)
+- [Tailwind css animations](https://tailwindcss-animations.vercel.app)

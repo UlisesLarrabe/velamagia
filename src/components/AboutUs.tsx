@@ -56,7 +56,7 @@ const AboutUs = () => {
         </h2>
       </header>
       <main className="flex md:flex-row flex-col gap-3 items-center md:items-start justify-center w-full">
-        <section className="flex flex-col gap-4 w-full items-center md:items-start md:w-[50%] md:h-auto h-[150px]">
+        <section className="flex flex-col gap-4 w-full items-center md:items-start md:w-[50%] md:h-auto h-[180px]">
           <div className="flex justify-center md:justify-normal md:w-[500px] gap-2">
             {info.map((item) => (
               <button

@@ -1,3 +1,4 @@
+import Instagram from "@/svg/Instagram";
 import Sparkle from "@/svg/Sparkle";
 import { Montserrat } from "next/font/google";
 
@@ -8,9 +9,9 @@ const montserrat = Montserrat({
 const Sleeve = () => {
   return (
     <section className=" h-[95vh] w-screen text-center overflow-hidden z-30 relative flex flex-col items-center justify-center">
-      <header className="z-30 relative flex flex-col gap-5 justify-center items-center">
+      <header className="z-30 relative flex flex-col gap-5 justify-center items-center animate-fade-in">
         <h1
-          className={`md:text-7xl text-5xl text-[#FFFBFA] brightness-110 ${montserrat.className}`}
+          className={`md:text-7xl text-5xl text-[#FFFBFA] brightness-110 ${montserrat.className} `}
         >
           Velamagia
         </h1>
@@ -23,6 +24,13 @@ const Sleeve = () => {
         >
           <Sparkle />
           Enciende tu magia
+        </a>
+        <a
+          href="https://www.instagram.com/_velamagia/?igsh=MW5xdnllbTlyaGxqeQ%3D%3D"
+          target="_blank"
+          className="btn btn-square hover:bg-[#f5752b] bg-[#BB7044]"
+        >
+          <Instagram />
         </a>
       </header>
 

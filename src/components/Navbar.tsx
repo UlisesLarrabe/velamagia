@@ -25,22 +25,23 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-[#F2EEE9]"
             >
               <li>
-                <a>Sobre nosotros</a>
+                <a className="text-[#37392E]" href="#about-us">
+                  Sobre nosotros
+                </a>
               </li>
               <li>
-                <a>Productos</a>
-              </li>
-              <li>
-                <a>Contactamos</a>
+                <a className="text-[#37392E]" href="#our-products">
+                  Productos
+                </a>
               </li>
             </ul>
           </div>
-          <a className="btn-ghost btn w-[100px] h-[50px]">
+          <div className="w-[100px] h-[50px]">
             <Image src={logo} alt="logo" width={70} height={50} />
-          </a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 ">
@@ -53,9 +54,6 @@ const Navbar = () => {
               <a className="text-[#37392E]" href="#our-products">
                 Productos
               </a>
-            </li>
-            <li>
-              <a className="text-[#37392E]">Contactamos</a>
             </li>
           </ul>
         </div>

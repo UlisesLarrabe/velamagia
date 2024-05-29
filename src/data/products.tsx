@@ -25,7 +25,7 @@ export const products: Product[] = [
     id: 3,
     title: "Vela con frase personalizada",
     img: velaFrase,
-    description: "La vela para regalarle a tu persona favorita!",
+    description: "!La vela para regalarle a tu persona favorita!",
   },
   {
     id: 4,

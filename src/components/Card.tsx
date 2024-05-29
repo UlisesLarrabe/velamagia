@@ -29,7 +29,7 @@ const Card = ({
         </section>
         <div className="card-actions justify-end">
           <button className="btn text-[#f0edee] btn-primary">
-            Comprar Ahora!
+            !Comprar Ahora!
           </button>
         </div>
       </main>
